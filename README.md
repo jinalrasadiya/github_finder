@@ -1,16 +1,38 @@
-# github_finder
+# GitHub Finder App
 
-A new Flutter project.
+A Flutter application to search GitHub users and view their profile details.  
+Built using **Flutter**, **GetX** for state management, and **GetStorage** for local persistence.
 
-## Getting Started
+## ✨ Features
+- Search GitHub users by username.
+- View basic user details and repositories.
+- **Theme Modes**: Light, Dark, and System mode with persistent storage.
+- Material 3 UI design.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- **Flutter** (UI framework)
+- **GetX** (state management, navigation, dependency injection)
+- **GetStorage** (local key-value storage)
+- **GitHub REST API v3** for data fetching
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK installed ([Install Flutter](https://docs.flutter.dev/get-started/install))
+- GitHub account & Personal Access Token (optional for higher rate limits)
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/jinalrasadiya/github_finder.git
+
+# Go to project folder
+cd github_finder
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
