@@ -16,6 +16,7 @@ Built using **Flutter**, **GetX** for state management, and **GetStorage** for l
 - **GitHub REST API v3** for data fetching
 
 
+![Screenshot_20250814_220724](https://github.com/user-attachments/assets/ec346071-72e3-4973-a88b-1c987f7c11e6)
 
 ## 🚀 Getting Started
 
